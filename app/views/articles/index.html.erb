@@ -1,0 +1,5 @@
+<% @articles.each do |article| %>
+  <div class="container">
+    <%= link_to article.title, article_path(article), class: 'h2 text-decoration-none' %>
+  </div>
+<% end %>
